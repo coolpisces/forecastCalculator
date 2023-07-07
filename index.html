@@ -11,7 +11,22 @@
 
 <body>
     <div class="container">
-        <p>Forec</p>
+        <p>Temperature Calculator</p>
+        <div class="row">
+            <p>celsius: </p>
+            <input onchange="calculateTemp(event)" type="number" name="celsius" id="celsius"
+                placeholder="What is the temperature?">
+        </div>
+        <div class="row">
+            <p>Fahrenheit: </p>
+            <input onchange="calculateTemp(event)" type="number" name="fahrenheit" id="fahrenheit"
+                placeholder="What is the temperature?">
+        </div>
+        <div class="row">
+            <p>Kelvin: </p>
+            <input onchange="calculateTemp(event)" type="number" name="kelvin" id="kelvin"
+                placeholder="What is the temperature?">
+        </div>
     </div>
 
 
